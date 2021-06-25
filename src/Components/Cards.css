@@ -149,6 +149,25 @@
     .about__card__info{
       font-size: 20px;
     }
+    .cards{
+      padding: 1rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 415px){
+    .contact__card__info {
+      font-size: 20px;
+      text-align: center;
+      letter-spacing: 3px;
+    }
+    .about__card__info{
+      font-size: 20px;
+      line-height: 35px;
+    }
+    .cards{
+      padding: 1rem;
+    }
   }
 
   @media only screen and (max-width: 376px){
