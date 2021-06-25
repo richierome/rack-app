@@ -3,6 +3,7 @@ import '../App.css'
 import {Button} from './Button'
 import './HeroSection.css';
 import {Link} from 'react-router-dom'
+import HeroVideo from './HeroVideo';
 
 
 
@@ -14,10 +15,11 @@ function HeroSection() {
 
     
     return (
+        
         <div className= 'hero-container'>
+            <HeroVideo url='https://www.youtube.com/watch?v=w1N5tpJ31YA'/>
           
-           <video 
-           src='videos/RACK-APP-drivers-1.mp4' muted autoPlay loop/>
+           <video src='videos/RACK-APP-drivers-1.mp4' muted autoPlay loop/>
            {/* <h1>ADVENTRUE AWAITS</h1>
            <p>Learn More</p> */}
            <div className='hero-btns'>
