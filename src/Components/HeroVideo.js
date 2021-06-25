@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import './ResponsivePlayer.css';
+import './HeroVideo.css';
 
 const HeroVideo =({url}) =>{
    

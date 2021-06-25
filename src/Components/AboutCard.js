@@ -9,7 +9,6 @@ import ResponsivePlayer from './ResponsivePlayer';
 function AboutCard() {
     return (
             <div>  
-                  
                 <ResponsivePlayer  url='https://www.youtube.com/watch?v=w1N5tpJ31YA'/>
                 <div className='cards'> 
                 <p className='about__card__info'>Established in 2020, we are a startup company based in Southern California. 

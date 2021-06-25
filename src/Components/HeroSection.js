@@ -16,21 +16,26 @@ function HeroSection() {
     
     return (
         
-        <div className= 'hero-container'>
-            <HeroVideo url='https://www.youtube.com/watch?v=w1N5tpJ31YA'/>
+        <div >
+           
+               <HeroVideo  url='https://www.youtube.com/watch?v=w1N5tpJ31YA'/> 
+           
+            {/* <HeroVideo  url='https://www.youtube.com/watch?v=w1N5tpJ31YA'/> */}
+            
           
-           <video src='videos/RACK-APP-drivers-1.mp4' muted autoPlay loop/>
+          
+           {/* <video src='videos/RACK-APP-drivers-1.mp4' muted autoPlay loop/> */}
            {/* <h1>ADVENTRUE AWAITS</h1>
            <p>Learn More</p> */}
            <div className='hero-btns'>
                {/* <Button className='btns' buttonStyle='btn--outline'
                buttonSize='btn--large'>Get Started
                </Button> */}
-               <Link to='/about'>
+               {/* <Link to='/about'>
                 <Button onClick={handleClick} className='btns' buttonStyle='btn--outline'
                  buttonSize='btn--large'>Watch trailer <i className='far fa-play-circle'/>
                 </Button>
-                </Link>
+                </Link> */}
 
            </div>
         </div>
