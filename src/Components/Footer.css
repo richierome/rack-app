@@ -8,6 +8,16 @@
     padding-top: 4%;
 }
 
-.copy_right{
+/* .copy_right{
     color: white;
+} */
+
+.copy_right{
+  
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 1.7em;
+    text-align: center;
+    bottom:0;
 }

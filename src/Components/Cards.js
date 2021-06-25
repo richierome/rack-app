@@ -14,7 +14,7 @@ function Cards() {
                    
                        <CardItem 
                        src='/images/connect.png'
-                       text='Try the App!'
+                       text='Try The App!'
                        label='Connect'
                        href='http://rack-dev.com/'
                        target='_blank'
