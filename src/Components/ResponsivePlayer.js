@@ -7,6 +7,8 @@ const ResponsivePlayer =({url}) =>{
         return(
             <div className='player-wraper'>
                 <ReactPlayer
+                playing={true}
+                muted={true}
                 className='react-player'
                 url={url}
                 width='100%'
