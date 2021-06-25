@@ -8,12 +8,12 @@ const HeroVideo =({url}) =>{
             <div className='player-wraper'>
                 <ReactPlayer
                 playing={true}
+                loop={true}
                 muted={true}
                 className='react-player'
                 url={url}
                 width='100%'
                 height='100%'
-               
                 />
             </div>
         )

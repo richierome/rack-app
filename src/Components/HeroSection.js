@@ -27,7 +27,7 @@ function HeroSection() {
            {/* <video src='videos/RACK-APP-drivers-1.mp4' muted autoPlay loop/> */}
            {/* <h1>ADVENTRUE AWAITS</h1>
            <p>Learn More</p> */}
-           <div className='hero-btns'>
+           {/* <div className='hero-btns'> */}
                {/* <Button className='btns' buttonStyle='btn--outline'
                buttonSize='btn--large'>Get Started
                </Button> */}
@@ -37,7 +37,7 @@ function HeroSection() {
                 </Button>
                 </Link> */}
 
-           </div>
+           {/* </div> */}
         </div>
     )
 }
