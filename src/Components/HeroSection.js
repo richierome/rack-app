@@ -17,7 +17,7 @@ function HeroSection() {
         <div className= 'hero-container'>
           
            <video 
-           src='.static/videos/RACK-APP-drivers-1.mp4' autoPlay loop muted/>
+           src='videos/RACK-APP-drivers-1.mp4' muted autoPlay loop/>
            {/* <h1>ADVENTRUE AWAITS</h1>
            <p>Learn More</p> */}
            <div className='hero-btns'>
