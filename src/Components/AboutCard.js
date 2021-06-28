@@ -26,7 +26,7 @@ function AboutCard() {
                 issues, news and updates that occur at any loading facility. If you are a truck driver then you are fully aware on how the status at a rack terminal can quickly change without warning.
                 <br/> 
                 <br/>   
-                The RACK-App was built and designed for driver-to-driver communication or facility to driver communication.  
+                The RACK-App was built and designed for driver-to-driver communication or facility-to-driver communication.  
                 Drivers and or facility terminal officers can share, update and relay information regarding events, issues or changes that occur at a rack terminal.  
                 We are well aware of the loss of time and frustrations drivers endure when trying to load. Our goal is to provide a platform where drivers can be well informed before arrival and commitment to a load.
                 <br/>
