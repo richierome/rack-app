@@ -57,7 +57,6 @@ function AboutCard() {
                     
                 </li>
                 <li class="roadmap-inverted">
-                    <div class="roadmap-dot done"></div>
                     <div class="roadmap-panel">
                         <h4 class="map-title">2. Feedback & inputs</h4>
                         <p class="map-text">
@@ -68,7 +67,6 @@ function AboutCard() {
                     </div>
                 </li>
                 <li>  
-                    <div class= "roadmap-dot done"></div>
                     <div class= "roadmap-panel">
                         <h4 class="map-title">3. Nationwide marketing</h4>
                         <p class="map-text">
@@ -79,7 +77,6 @@ function AboutCard() {
                     </div>
                 </li>
                 <li class="roadmap-inverted">
-                    <div class="roadmap-dot done"></div>
                     <div class="roadmap-panel">
                         <h4 class="map-title">4. Advanced features</h4>
                         <p class="map-text">
