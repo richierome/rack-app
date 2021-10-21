@@ -1,0 +1,79 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.roadmap > li > .roadmap-dot.done {
+    background-color: #3e9392;
+}
+
+.roadmap > li > .roadmap-dot {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -10px;
+    background-color: #3d4663;
+    border-radius: 50%;
+}
+
+.roadmap > li > .roadmap-panel {
+    width: 47%;
+    float: left;
+}
+
+.roadmap > li > .roadmap-panel {
+    padding: 1.5rem;
+    position: relative;
+    background: #333;
+}
+
+
+
+.roadmap > li.roadmap-inverted > .roadmap-panel {
+    float: right;
+}
+
+/* .roadmap:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #343a4e;
+    left: 50%;
+    margin-left: -1.5px;
+} */
+
+.roadmap > li:after {
+    clear: both;
+}
+
+.roadmap > li:before, .roadmap > li:after {
+    content: " ";
+    display: table;
+}
+
+.row {
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+
+.map-text{
+    color:#fff;
+    font-size:1.5rem;
+}
+
+.map-title{
+    color:#0ac9aa
+}
+.line-break{
+    border-top: 3px solid #333;
+}
+

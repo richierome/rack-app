@@ -1,5 +1,6 @@
 import React from 'react'
 import './Cards.css'
+import'./About.css'
 import ResponsivePlayer from './ResponsivePlayer';
 
 
@@ -29,12 +30,65 @@ function AboutCard() {
                 The RACK-App was built and designed for driver-to-driver communication or facility-to-driver communication.  
                 Drivers and or facility terminal officers can share, update and relay information regarding events, issues or changes that occur at a rack.  
                 We are well aware of the loss of time and frustrations drivers endure when trying to load. Our goal is to provide a platform where drivers can be well informed before arrival and commitment to a load.
-                <br/>
                 <br/> 
+                <br/>
                 Know before you load! 
                 </p>
             </div>
 
+                <br/> 
+                <br/>
+            
+            <div id= "roadmap" class='row'>
+                
+            <h2>Roadmap</h2>
+            
+            
+            <ul class= "roadmap">
+            <hr class="line-break"></hr>
+                <li>  
+                    <div class= "roadmap-panel">
+                        <h4 class="map-title">1. Intro to industry</h4>
+                        <p class="map-text">
+                        We are taking the necessary steps of introducing ourselves to the fuel and oil industry.<br></br>
+                        It's important that we reach our targeted audience and let them be aware of our services.
+                        </p>
+                    </div>
+                    
+                </li>
+                <li class="roadmap-inverted">
+                    <div class="roadmap-dot done"></div>
+                    <div class="roadmap-panel">
+                        <h4 class="map-title">2. Feedback & inputs</h4>
+                        <p class="map-text">
+                            The team will be working directly with users on app interaction and UI experience.  <br></br>
+                            We will also be applying rack terminal input and desired locations.
+                            
+                        </p>
+                    </div>
+                </li>
+                <li>  
+                    <div class= "roadmap-dot done"></div>
+                    <div class= "roadmap-panel">
+                        <h4 class="map-title">3. Nationwide marketing</h4>
+                        <p class="map-text">
+                            We will be launching a marketing campaing to reach as many drivers across the United States.<br></br>
+                            We are working hard and commited to provide a service and information platform to all fuel hualers.
+                             
+                        </p>
+                    </div>
+                </li>
+                <li class="roadmap-inverted">
+                    <div class="roadmap-dot done"></div>
+                    <div class="roadmap-panel">
+                        <h4 class="map-title">4. Advanced features</h4>
+                        <p class="map-text">
+                        Our long term goals are dedicated to introduce new technologies and advanced features to further assist drivers in conducting a more efficient way of loading, terminal to station navigating and resources to station information.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            </div>
         </div>
  )
 }
