@@ -45,8 +45,9 @@ function AboutCard() {
             
             
             <ul class= "roadmap">
-            <hr class="line-break"></hr>
+            {/* <hr class="line-break"></hr> */}
                 <li>  
+                    <div class="roadmap-dot1 done1"></div>
                     <div class= "roadmap-panel">
                         <h4 class="map-title">1. Intro to industry</h4>
                         <p class="map-text">
@@ -57,30 +58,33 @@ function AboutCard() {
                     
                 </li>
                 <li class="roadmap-inverted">
+                    <div class="roadmap-dot2 done2"></div>
                     <div class="roadmap-panel">
                         <h4 class="map-title">2. Feedback & inputs</h4>
                         <p class="map-text">
                             The team will be working directly with users on app interaction and UI experience.  <br></br>
-                            We will also be applying rack terminal input and desired locations.
+                            We will also be adding rack terminal inputs and desired locations.
                             
                         </p>
                     </div>
                 </li>
-                <li>  
+                <li>
+                    <div class="roadmap-dot3 done3"></div>  
                     <div class= "roadmap-panel">
                         <h4 class="map-title">3. Nationwide marketing</h4>
                         <p class="map-text">
-                            We will be launching a marketing campaing to reach as many drivers across the United States.<br></br>
-                            We are working hard and commited to provide a service and information platform to all fuel hualers.
+                            We will be launching a marketing campaing to reach as many drivers across the United States and surrounding regions.<br></br>
+                            We are working hard and committed in providing a information service and communication platform for all fuel haulers.
                              
                         </p>
                     </div>
                 </li>
                 <li class="roadmap-inverted">
+                    <div class="roadmap-dot4 done"></div>
                     <div class="roadmap-panel">
                         <h4 class="map-title">4. Advanced features</h4>
                         <p class="map-text">
-                        Our long term goals are dedicated to introduce new technologies and advanced features to further assist drivers in conducting a more efficient way of loading, terminal to station navigating and resources to station information.
+                        Our long term goals are dedicated to introduce new technologies and advanced features to further assist drivers in conducting a more efficient way of loading, terminal to station navigation and resources to station information.
                         </p>
                     </div>
                 </li>
