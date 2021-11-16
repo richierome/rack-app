@@ -50,7 +50,7 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 73%;
+    top: 80%;
     left: 50%;
     margin-left: -10px;
     background-color: #3d4663;
@@ -104,8 +104,8 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 10px;
+    margin-left: 10px;
     justify-content: center;
 }
 

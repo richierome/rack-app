@@ -1,6 +1,8 @@
 .player-wraper {
     position: relative;
-    padding-top:56.25% /*player ration: 100/ (1280 / 720) */
+    padding-top:56.25%;/*player ration: 100/ (1280 / 720) */
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .react-player{
