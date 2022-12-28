@@ -149,6 +149,7 @@
     }
     .about__card__info{
       font-size: 22px;
+      letter-spacing: 0.01em;
     }
     .cards{
       padding: 1rem;

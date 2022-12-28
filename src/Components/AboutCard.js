@@ -9,7 +9,18 @@ import ResponsivePlayer from './ResponsivePlayer';
 
 function AboutCard() {
     return (
+
+            
             <div>  
+                 <ResponsivePlayer  url='https://www.youtube.com/watch?v=olS6DsxcnBk'/>
+                <div className='cards'> 
+                <p className='about__card__info'> Latest Feature: "Station Routing" 
+                <br/>
+                <br/>Our solution to a common problem drivers come across when dispatched to a new delivery site.
+        
+                </p>
+                </div>
+
                 <ResponsivePlayer  url='https://www.youtube.com/watch?v=w1N5tpJ31YA'/>
                 <div className='cards'> 
                 <p className='about__card__info'>Established in 2020 The RACK-App is a startup company based in Southern California.  
